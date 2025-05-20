@@ -15,21 +15,52 @@ A robust and scalable database system designed to manage a ride-sharing and deli
 
 ## 🧠 Key Features
 
-- Full ER/EER model and schema design
-- Complete normalization through BCNF
-- SQL scripts for data creation, population, and queries
-- Unix shell scripts for menu-driven DBMS control
-- Relational algebra translation for key queries
-- Optional user interface with Oracle + Python
-- Web UI integration via PHP (demo link in report)
+- ER/EER model and schema design
+- Full database normalization to BCNF
+- SQL queries for creation, retrieval, and analysis
+- Unix shell scripting for a text-based DBMS menu
+- Optional **web-based GUI** interface via PHP
+- Oracle-Python CLI UI for DB management
 
 ---
 
-## 🗂️ Report
+## 🖼️ Screenshots
 
-For full design documentation, diagrams, normalization details, and SQL code samples, see:
+### 🔶 ER Diagram – Schema Design
 
-📄 [Ride and Pick-Up DBMS – Full Report (PDF)](Ride&PickUp-DBMS.pdf)
+Visual representation of database entities, attributes, and relationships.
+
+![ER Diagram](images/ER-diagram.png)
+
+---
+
+### 🖥️ Unix Shell Interface – Menu and Update Operation
+
+Menu-driven DBMS interface written in shell script.
+
+![Shell Menu Example](images/shell-menu.png)
+
+---
+
+### 🌐 Web GUI Interface (PHP)
+
+Optional graphical interface to perform DBMS operations through a browser.
+
+![Web UI Interface](images/web-interface.png)
+
+---
+
+## 🗂️ Full Report
+
+📄 [Ride and Pick-Up DBMS – Detailed Project Report](Ride&PickUp-DBMS.pdf)
+
+Includes:
+- Schema design
+- Normalization steps
+- SQL examples
+- Shell script samples
+- UI development notes
+- System testing results
 
 ---
 
@@ -38,18 +69,16 @@ For full design documentation, diagrams, normalization details, and SQL code sam
 - Oracle XE Database
 - SQL & PL/SQL
 - Bash Shell Scripting
-- Python + `oracledb` module
-- PHP (Web UI)
-- HTML/CSS (for optional interface)
+- Python + `oracledb`
+- PHP, HTML/CSS (optional GUI)
 
 ---
 
-## 🚀 Installation & Setup
+## 🚀 Setup & Installation
 
-> ⚠️ This system requires an Oracle Database installation.
+### 📥 Requirements
+- Oracle XE Database (local)
+- Python 3.x with `oracledb` module
 
-### Steps:
-1. Install **Oracle XE**
-2. Install Python dependencies:
-   ```bash
-   pip install oracledb
+```bash
+pip install oracledb
